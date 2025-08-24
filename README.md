@@ -1,7 +1,7 @@
 # online-drone
 A DJI Tello drone control panel which can accessable publicly via ngrok.
 ## Setup
-### Needed plugins: flask, djitellopy, pyngrok, cv2
+### Required packages: flask, djitellopy, pyngrok, cv2
 1. Connect your tello to your computer using WiFi.
 2. Run the flask server.
 3. Go to the link outputed on console.
