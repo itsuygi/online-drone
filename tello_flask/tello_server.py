@@ -7,7 +7,7 @@ import time
 
 
 PORT_NO = 8080 ## Port you want to host.
-PUBLIC_URL = True  ## Set this to true if you want to create url which is accessable in every network. False = Only accessable from network (You need a ngrok account)
+PUBLIC_URL = True  ## Set this to true if you want to host via ngrok. False = Only accessable from local network (You need a ngrok account)
 distance = 70 ## The distance drone will move in cantimeters.
 
 app = Flask(__name__)
